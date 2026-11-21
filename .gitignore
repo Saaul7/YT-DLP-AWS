@@ -1,0 +1,42 @@
+# --- Authentication & Sensitive Credentials ---
+cookies.txt
+.env
+.env.*
+
+# --- Virtual Environments ---
+.venv/
+venv/
+ENV/
+env/
+
+# --- Python Bytecode & Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# --- Downloads, Cache & Runtime Stores ---
+downloads/
+jobs_store.json
+jobs_store.json.tmp
+*.tmp
+
+# --- Media & Transcript Artifacts ---
+*.mp4
+*.mkv
+*.webm
+*.mp3
+*.wav
+*.vtt
+*.srt
+
+# --- Tooling & Code Review Graphs ---
+.code-review-graph/
+
+# --- Operating System & IDE Files ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

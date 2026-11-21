@@ -1,0 +1,25 @@
+# --- Core Web Framework & Asynchronous API Server ---
+fastapi==0.139.0
+uvicorn[standard]==0.51.0
+pydantic==2.13.4
+
+# --- Media Extraction & Downloader Engine ---
+yt-dlp==2026.10.26
+
+# --- Cloud / AWS TLS Impersonation & Anti-Bot Protection ---
+# curl_cffi enables browser TLS fingerprint impersonation to prevent HTTP 403 / 429 bot blocks on AWS
+curl_cffi==0.17.0
+
+# --- Media Cryptography, Tagging & Compression ---
+pycryptodomex==3.24.2
+mutagen==1.48.1
+brotli==1.2.1
+certifi==2026.10.23
+
+# --- Transcript Tokenization & Segmentation ---
+tiktoken==0.14.0
+requests==2.34.2
+
+# --- Streaming & Utility Dependencies ---
+websockets==16.1
+python-dotenv==1.2.2
